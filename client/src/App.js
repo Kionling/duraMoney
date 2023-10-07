@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from "../src/components/Navbar/navbar"
+import Login from "../src/pages/Login/login"
+
 function App() {
   return (
-    <div>
-    
-    </div>
+    <Login/>
   );
 }
 
