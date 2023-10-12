@@ -1,0 +1,8 @@
+#imageContainer{
+    background-image: url(../Login/loginAssets/pexels-tae-fuller-2691562.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    margin: 0;
+    background-repeat: no-repeat;
+}
