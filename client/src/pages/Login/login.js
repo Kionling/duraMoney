@@ -7,7 +7,7 @@ function Login() {
       <div className="row">
         <div className="col s6">
           <div id="formContainer">
-            <h1>Form div</h1>
+            
           </div>
         </div>
         <div className="col s6" id="imageContainer">
