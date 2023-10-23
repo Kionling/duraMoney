@@ -3,16 +3,13 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../Login/login.css";
 function Login() {
   return (
+
     <div className="row" id="general">
-      <div classNameName="container center black-text">
-        <h2 className="white-text">HIKR</h2>
-        <p className="white-text">The journal for all things hiking</p>
-      </div>
-      <div className="container center">
+      <div className="col s6 center valign-wrapper" id="underGeneral">
         <div className="row">
-          <div className="col s12 l7">
+          <div className="container">
             <h3>Login</h3>
-            <div className="input-field col s12  ">
+            <div className="input-field col s12">
               <input id="email" type="email" className="validate"></input>
               <label for="email">
                 <i className="material-icons">email</i>Email
@@ -35,10 +32,8 @@ function Login() {
             </button>
           </div>
         </div>
-      </div>
-      <div className=" center">
-      <div className="row">
-        <div className="col s12 l8">
+        {/* <div className="row">
+        <div>
           <h5>New user?</h5>
           <a href="/signUp">
             <button
@@ -51,7 +46,24 @@ function Login() {
             </button>
           </a>
         </div>
+      </div> */}
+       <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="images/yuna.jpg" alt="" class="circle responsive-img"/>
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+                This is a square image. Add the "circle" class to it to make it appear circular.
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
+      </div>
+      <div className="col s6" id="imgCont">
+
       </div>
     </div>
   );
